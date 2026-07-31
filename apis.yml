@@ -1,7 +1,29 @@
 aid: myclubs
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/myclubs.png
 name: Myclubs
-description: Myclubs is a company surfaced as a portfolio company of speedinvest and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Myclubs is a Vienna- and Zurich-based digital sports membership company,
+  founded in 2014 by Tobias Homberger, that gives members flexible access to a
+  network of more than 1,200 sports and fitness providers across Austria and
+  Switzerland through a single subscription. One membership covers over 35 sport
+  and activity types and more than 10,000 bookable workouts per week, from gyms
+  and yoga studios to tennis, boxing and cross training. Myclubs also runs a
+  corporate fitness program used by over 300 employers as an employee benefit.
+  The company was acquired by Urban Sports Club in August 2024 and is a portfolio
+  company of Speedinvest. Myclubs is a consumer-facing membership brand and does
+  not publish a public developer portal, API documentation, or machine-readable
+  API specification.
 url: https://raw.githubusercontent.com/api-evangelist/myclubs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +33,39 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Fitness
+- Sports
+- Membership
+- Wellness
+- Corporate Fitness
+- Health
+- Subscription
 apis: []
+common:
+- type: DomainSecurity
+  url: security/myclubs-domain-security.yml
+- type: Website
+  url: https://www.myclubs.com/at/en/
+- type: Pricing
+  url: https://www.myclubs.com/at/en/prices/
+- type: Support
+  url: https://www.myclubs.com/at/en/customer-service/
+- type: HelpCenter
+  url: https://www.myclubs.com/at/en/faq/
+- type: TermsOfService
+  url: https://www.myclubs.com/at/en/general-terms-and-conditions/
+- type: PrivacyPolicy
+  url: https://www.myclubs.com/at/en/data-protection/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
