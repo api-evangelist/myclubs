@@ -1,0 +1,14 @@
+{
+  "repo": "myclubs",
+  "feeds": [
+    {
+      "source": "https://www.myclubs.com/at/de/blog/",
+      "feed_url": "https://www.myclubs.com/at/de/blog/",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-10-10T13:15:00Z"
+}
